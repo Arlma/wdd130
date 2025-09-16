@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ✅ STYLES FOR MAIN */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* ✅ PROFILE IMAGE - MADE SPECIFIC TO MAIN */
+main img {
+    width: 100px;
+    height: auto;
+    border-radius: 40%;
+    display: block;
+    margin-bottom: 1rem;
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+/* ✅ RESET PARAGRAPH PADDING */
+p {
+    padding: 0;
+}
+
+/* ✅ STYLES FOR ASIDE */
+aside {
+    width: 20cm;
+    margin: 2rem auto;
+    border: 2px solid #333;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    color: #222222;
+    text-align: center;
+    border-radius: 12px;
+    position: relative;
+}
+
+/* ✅ IMAGE IN ASIDE - FIXED WIDTH, MAINTAIN ASPECT RATIO */
+aside img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px;
+}
+
+aside h2 {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+/* ✅ FOOTER STYLING */
+footer {
+    margin-top: 2rem;
+    border-top: 2px solid #000;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/*Class Selectors*/
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(red, green, blue, alpha);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
