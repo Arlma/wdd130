@@ -1,3 +1,4 @@
+/* Copy of rafting.css for audit compliance. */
 /* Define color scheme and fonts */
 :root {
     --primary-color: #004aad;
@@ -19,32 +20,37 @@ body {
     color: var(--accent1-color);
     line-height: 1.5;
 }
+
 header {
-  display: grid;
-  grid-template-columns: 150px auto;
-  align-items: center;
-  padding: 1rem;
-  background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f2f2f2;
 }
 
 header img {
-  width: 120px;
+    width: 120px;
 }
 
 nav {
-  display: flex;
-  justify-content: flex-end;
-  gap: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
 }
+
 .history {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
-  padding: 2rem;
-  history img{
-width:8%;
-float:right;
-  };
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    padding: 2rem;
+
+    history img {
+        width: 8%;
+        float: right;
+    }
+
+    ;
 }
 
 main,
@@ -120,6 +126,6 @@ nav a {
 }
 
 .socialmedia img {
-    width: 10px;
+    width: 32px;
     margin: 0 5px;
 }
