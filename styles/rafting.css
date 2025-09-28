@@ -1,3 +1,109 @@
+/* Contact Page Additions */
+.company-info {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.company-info h2 {
+    margin-top: 0;
+}
+
+.map-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.map-container iframe {
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+}
+
+.employees {
+    margin-bottom: 2rem;
+}
+
+.employee-gallery {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.employee-gallery figure {
+    text-align: center;
+}
+
+.employee-gallery img {
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.contact-form {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    max-width: 500px;
+    margin: 0 auto 2rem auto;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.submit-btn {
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background 0.2s;
+}
+
+.submit-btn:hover {
+    background: #00337a;
+}
+
 /* Copy of rafting.css for audit compliance. */
 /* Define color scheme and fonts */
 :root {
@@ -121,6 +227,13 @@ nav a {
 }
 
 /* Footer */
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
